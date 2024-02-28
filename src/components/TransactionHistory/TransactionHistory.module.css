@@ -1,0 +1,40 @@
+.table {
+  margin: 20px auto;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px -2px rgba(0, 0, 0, 0.75);
+}
+
+.th {
+  width: 290px;
+  padding: 20px 0;
+  text-align: center;
+  font-family: sans-serif;
+  font-weight: 500;
+
+  font-size: 13px;
+  text-transform: uppercase;
+  color: #fff;
+  background-color: #474748;
+}
+
+.td {
+  font-weight: 600;
+  font-family: sans-serif;
+  width: 200px;
+  padding: 10px;
+  text-align: center;
+  border: 1px solid #a4a6a8;
+}
+
+.tr {
+  font-family: sans;
+  background-color: #fff;
+}
+
+.tr:nth-child(2n) {
+  background-color: #ecf2f3;
+}
+
+.td::first-letter {
+  text-transform: capitalize;
+}
