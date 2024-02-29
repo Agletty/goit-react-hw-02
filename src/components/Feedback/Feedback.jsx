@@ -1,6 +1,6 @@
 const Feedback = ({ feedback }) => {
   return (
-    <div className="feedback">
+    <div>
       <p>Good: {feedback.good}</p>
       <p>Neutral: {feedback.neutral}</p>
       <p>Bad: {feedback.bad}</p>
